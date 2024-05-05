@@ -6,7 +6,7 @@ from gradio_client import Client
 app = FastAPI()
 
 # Initialize Gradio Client
-gradio_client = Client(""Nyandori/whisper"")
+gradio_client = Client("Nyandori/whisper")
 
 class PredictionInput(BaseModel):
     url_input: str
